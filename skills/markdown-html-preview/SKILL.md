@@ -46,7 +46,8 @@ content actually is, not just whatever a one-size-fits-all parser produces.
 
 ### Step 3: Write the HTML by hand
 
-Use `create_file` to write real, semantic HTML directly — no markdown library, no
+Write real, semantic HTML directly to a file using your environment's file-writing
+tool — no markdown library, no
 conversion script. Translate each element deliberately:
 
 - Headings → `<h1>`/`<h2>`/`<h3>` matching the source's heading levels
