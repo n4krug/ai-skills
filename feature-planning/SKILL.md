@@ -45,8 +45,9 @@ Ask about whatever the codebase scan couldn't tell you. Typical topics:
 - **Known affected areas** — anything the user already knows will need to change that
   the scan might have missed
 
-Use `ask_user_input_v0` if available for quick multiple-choice elicitation; otherwise
-ask directly in chat. Keep asking — in multiple rounds if needed — until you're
+If your environment has a structured question/elicitation tool, use it for quick
+multiple-choice questions; otherwise just ask directly in your reply. Keep asking —
+in multiple rounds if needed — until you're
 genuinely confident you understand the goal, scope, and constraints well enough to
 draft a grounded plan. Don't pad this with questions for their own sake, but don't cap
 it artificially either: if an answer opens up a new ambiguity, ask about that too
